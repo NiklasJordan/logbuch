@@ -1,0 +1,8 @@
+{ 
+	"title": "Your blog title",
+	"host": "imap.gmail.com", // host adress for your mails, e.g. imap.gmail.com
+    "user": "my@email.com",
+    "pass": "my_secure-pa$$w0rd",
+    "from": "my@email.com", // email adress where your entries will send from
+    "subject": "Entry" // subject of emails which identify your entry
+}

@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  font-family: inherit;
+}
+
+body {
+    text-rendering: optimizeLegibility;
+    line-height: 1.6;
+    font-size: 1rem;
+    font-family: San Francisco Mono, Monaco,"Consolas","Lucida Console","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+header {
+    position: fixed;
+    padding: 1% 1%;
+    background: rgba(256,256,256,0.7);
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    z-index: 999;
+}
+
+.logo span {
+	background: #000;
+	width: 10px;
+	height: 10px;
+	margin: 2px;
+	padding: 8px;
+	display: block;
+	color: #fff;
+	float: left;
+	font-family: monospace;
+	text-transform: uppercase;
+	border-radius: 2px;
+	font-family: 'Courier', monospace;
+	font-weight: bold;
+}
+
+.l {transform: rotate(5deg); animation: wave-text 2s ease-in-out infinite; animation-delay: 0.0s;}
+.o {transform: rotate(-2deg); animation: wave-text-alternative 2s ease-in-out infinite; animation-delay: 0.1s;}
+.g {transform: rotate(7deg); animation: wave-text 2s ease-in-out infinite; animation-delay: 0.2s;}
+.b {transform: rotate(-5deg); animation: wave-text-alternative 2s ease-in-out infinite; animation-delay: 0.3s;}
+.u {transform: rotate(2deg); animation: wave-text 2s ease-in-out infinite; animation-delay: 0.4s;}
+.c {transform: rotate(4deg); animation: wave-text-alternative 2s ease-in-out infinite; animation-delay: 0.5s;}
+.h {transform: rotate(-2deg); animation: wave-text 2s ease-in-out infinite; animation-delay: 0.6s;}
+
+@keyframes wave-text{
+	00%{ transform: translateY(0em) rotate(0deg); }
+    50%{ transform: translateY(-0.1em) rotate(-2deg); }
+    100%{ transform: translateY(0em) rotate(0deg); }
+}
+
+@keyframes wave-text-alternative{
+	00%{ transform: translateY(0em) rotate(0deg); }
+    50%{ transform: translateY(-0.1em) rotate(1deg); }
+    100%{ transform: translateY(0em) rotate(0deg); }
+}
+
+header div.desc {
+    font-style: italic;
+}
+
+div.entry {
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    padding: 5% 10%;
+    box-sizing: border-box;
+}
+
+div.entry:first-child {
+    padding: 10% 10% 5% 10%;
+}
+
+div.entry p {
+    font-size: 2rem;
+    width: 100%;
+}
+
+div.entry img {
+    max-height: 90vh;
+    max-width: 90hh;
+    margin-top: 5%;
+}

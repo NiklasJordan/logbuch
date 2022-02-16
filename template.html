@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>{{ title }}</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <span class="logbuch l">l</span>
+                <span class="logbuch o">o</span>
+                <span class="logbuch g">g</span>
+                <span class="logbuch b">b</span>
+                <span class="logbuch u">u</span>
+                <span class="logbuch c">c</span>
+                <span class="logbuch h">h</span>
+            </div>
+            <div class="desc">
+                stupid simple email-based static site generator
+            </div>
+        </header>  
+        
+        <div class="entries">
+            {% for entry in entries|reverse %}
+            <div class="entry">
+                <p><span class="date">{{entry[0]}}</span> – {{entry[1]}}</p>
+                {% for image in entry[2:] %}
+                <img src="../entries/{{image}}" alt="{{entry[1]}}" />
+                {% endfor %}
+            </div>
+            {% endfor %}
+        </div>
+    </body>
+</html>
