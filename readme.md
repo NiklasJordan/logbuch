@@ -15,9 +15,9 @@ Abilities and Features:
 
 | :point_up: DISCLAIMER                                                                       |
 |:--------------------------------------------------------------------------------------------|
-| This project was created due to my own needs. I do not guarantee that it is free of bugs.   |
-| The script is just <100 lines of dirty (I mean really dirty!) Python code and I recommend   |
-| you to take a look in there yourself before you use it for yourself.                        |
+| This project was created due to my own needs. I do not guarantee that it is free of bugs.   
+ The script is just <100 lines of dirty (I mean really dirty!) Python code and I recommend   
+ you to take a look in there yourself before you use it for yourself.                        |
 
 ## The story behind
 
