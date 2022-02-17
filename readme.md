@@ -61,6 +61,8 @@ Just send an email with the defined subject from your config.json with your cont
 
 I'm using a simple iOS shortcut to generate and send the emails. This let me select one or more photos and open a modal for the text, afterwards it's sends automatically to the right adress and with the right subject.
 
+[Get shortcut for iOS](https://www.icloud.com/shortcuts/f12cc0629c93450c8f21ec1b34b25b8a)
+
 ## Next steps
 
 I would like to implement the following features:
