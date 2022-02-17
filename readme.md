@@ -39,13 +39,13 @@ Pretty simple, right?!
 
 Just copy the files on your server:
 
-´´´
+```
 $ git clone https://github.com/NiklasJordan/Logbuch.git
-´´´
+```
 
 ### Configuration
 
-Rename the ´config-copy.json´ to ´config.json´ and fill out and customize it with your data.
+Rename the `config-copy.json` to `config.json` and fill out and customize it with your data.
 
 ### Add a cronjob (optional)
 
@@ -55,7 +55,7 @@ That's all. Now you can start with your postings.
 
 ## Usage
 
-Just send an email with the defined subject from your config.json with your content to your defined target email adress. If you added a cronjob, you have nothing else to do. Otherwise, you have to run the ´site.py´.
+Just send an email with the defined subject from your config.json with your content to your defined target email adress. If you added a cronjob, you have nothing else to do. Otherwise, you have to run the `site.py`.
 
 ### Use a iOS shortcut (optional)
 
